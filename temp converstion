@@ -1,0 +1,5 @@
+#temperature convertion
+(input("enter temperature in faren"))
+celsiotemperature converter
+faren=floaus=(5/9)*(faren-32)
+print("the temperature in faren : ",celsious)

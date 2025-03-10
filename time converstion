@@ -1,0 +1,5 @@
+min=int(input("enter time in minutes"))
+hours=min//60
+remainingminutes=min%60
+print(hours)
+print(remainingminutes)

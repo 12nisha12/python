@@ -1,0 +1,17 @@
+#armstrong no checker
+def is_armstrong(n):
+  num_str = str(n)
+  num_digits = len(num_str)
+  armstrong_sum = sum(int(digit)**num_digits for digit in num_str)
+  return n == armstrong_sum
+  num=int(input("enter a number"))
+  if is_armstrong(num):
+    print(num,"is an armstrong number")
+  else:
+    print(num,"is not an armstrong number")
+    num=int(input("enter a number"))
+    if armstrong(num):
+      print(num,"is an armstrong number")
+    else:
+      print(num,"is not an armstrong number")
+    

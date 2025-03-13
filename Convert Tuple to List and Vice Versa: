@@ -1,0 +1,5 @@
+tuple_=(1,3,5,7,9)
+tuple_=list(tuple_)
+print(tuple_)
+tuple_=tuple(tuple_)
+print(tuple_)

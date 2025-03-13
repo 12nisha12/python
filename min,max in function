@@ -1,0 +1,7 @@
+def find(numbers):
+  return min(numbers),max(numbers)
+numbers=[23,42,12,41,53]
+smallest=min(numbers)
+largest=max(numbers)
+print("smallest number:",smallest)
+print("largest number:",largest)

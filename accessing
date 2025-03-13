@@ -1,0 +1,2 @@
+name={"arya":10,"nathasha":18,"dyna":19,"maya":22} 
+print(name["arya"]) 

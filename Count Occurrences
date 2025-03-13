@@ -1,0 +1,4 @@
+numbers = [1, 2, 3, 4, 2, 5, 2, 6, 2]
+element = 2
+count = numbers.count(element)
+print(f"The element {element} appears {count} times in the list.")

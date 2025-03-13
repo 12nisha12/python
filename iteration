@@ -1,0 +1,2 @@
+for i,j in friend.items():
+  print(i,j)

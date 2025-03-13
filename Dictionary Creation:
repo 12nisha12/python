@@ -1,0 +1,7 @@
+friend={
+    "name":"arya",
+    "age":20,
+    "city":"kerala",
+    "country":"india"
+}
+print(friend)

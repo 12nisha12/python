@@ -1,0 +1,4 @@
+a=[2,3,6,9,5,2,1]
+b=[2,66,78,9,4,8]
+combine=a+b
+print(combine)

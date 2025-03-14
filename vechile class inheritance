@@ -1,0 +1,13 @@
+class vechile:
+  def __init__(self,brand,rate): # Corrected the typo from __inti__ to __init__
+    self.brand=brand
+    self.rate=rate
+  def arya(self):
+    print(f"brand:{self.brand} rate:{self.rate}")
+class car(vechile):
+  def __init__(self,brand,rate):
+    super().__init__(brand,rate)
+  def sagar(self):
+    print(f"brand:{self.brand} rate:{self.rate}")
+obj=car("honda",1000)
+obj.arya()

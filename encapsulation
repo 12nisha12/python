@@ -1,0 +1,9 @@
+class arya:
+  def __init__(self):
+    self.maya="hii👋"
+    self.__nathasha="bye 👍"
+  def sagar(self):
+    print(self.__nathasha)
+nishanth=arya()
+print(nishanth.maya)
+nishanth.sagar()

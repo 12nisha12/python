@@ -1,0 +1,13 @@
+class arya:
+  def cute(self):
+    print("i am coming")
+class sagar:
+  def smile(self):
+    print("i am here")
+class agastya(arya,sagar):
+  def happy(self):
+    print("i am happy")
+obj=agastya()
+obj.smile()
+obj.cute()
+obj.happy()

@@ -1,0 +1,8 @@
+class arya:
+  def cute(self):
+    print("i like you")
+class sagar(arya):
+  def cute(self):
+    print("nisha i like you too 💞")
+obj=sagar()
+obj.cute()
